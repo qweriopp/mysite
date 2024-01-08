@@ -1,0 +1,71 @@
+<!-- polls/templates/polls/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyFjMz9gAo7PaPmkN1a5+IOIb6AyqXJxM" crossorigin="anonymous"> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyFjMz9gAo7PaPmkN1a5+IOIb6AyqXJxM" crossorigin="anonymous"></script>
+
+    <title>ADDSOL</title>
+    <!-- 추가적인 스타일시트 링크 등을 여기에 추가할 수 있습니다. -->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'polls/style.css' %}">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <div class="d-flex justify-content-between w-100">
+                <div class="d-flex align-items-center">
+                    <a class="navbar-brand" href="#">
+                        <img src="{% static 'polls/logo.png' %}" alt="Your Logo" width="280" height="60">
+                    </a>
+                </div>
+                <div class="d-flex align-items-center">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">회사소개</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">제품소개</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">고객센터</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">인재채용</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">회사소개</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">제품소개</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">고객센터</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">인재채용</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUcM+USCIaTt7" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-iO3IAOp/SFfKdS9ccljw6H/WNJoKpPj0qHpLHM5ZdF86drL6dwe2JbJ7ZNIIJdF5" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyFjMz9gAo7PaPmkN1a5+IOIb6AyqXJxM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
